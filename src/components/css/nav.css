@@ -8,3 +8,7 @@
     font-family: 'Ubuntu', sans-serif;
 
 }
+.navbar{
+    background-color: rgb(170, 200, 88)!important;
+    box-shadow: 0 2px 2px -2px black;
+}
