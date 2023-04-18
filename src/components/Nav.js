@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './css/nav.css'
+import Logo from '../images/DEE Dreamer.svg'
 
 const Nav = () => {
   return (
@@ -8,7 +9,9 @@ const Nav = () => {
 
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container">
-    <Link className="nav-link"  to ="/">Diane Logo</Link>
+  <Link to="/">
+        <img className='my-logo' src ={Logo} alt="my logo"/>
+    </Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
