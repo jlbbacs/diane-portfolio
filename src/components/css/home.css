@@ -1,10 +1,19 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Great+Vibes&family=Prompt&family=Ubuntu&display=swap');
 
 
 
 
 
 #home-card{
-    margin-top: 5rem;
+    margin-top: 3rem;
     border: none;
+}
+
+.card-title{
+    font-family: 'Great Vibes', cursive;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+    color: rgb(38, 38, 30);
+    font-weight: bold;
+    
 }
