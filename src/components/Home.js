@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/home.css'
+import diane1 from '../images/diane1.jpg'
 
 const Home = () => {
   return (
@@ -7,7 +8,7 @@ const Home = () => {
      <div class="card mb-3" id="home-card" style={{maxwidth: 540}}>
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="..." class="img-fluid rounded-start" alt="..."/>
+      <img src={diane1} class="img-fluid rounded-start" alt="..."/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
